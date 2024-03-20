@@ -1,0 +1,45 @@
+.container {
+    display:flex;
+    align-items:stretch; 
+}
+
+.imagem {
+    margin-right: 20px; 
+}
+
+.imagem img {
+    max-width: 450px; 
+    height: 450px; 
+    align-self:auto;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column; 
+}
+
+.titulo-grande p {
+    font-size: 25px; 
+    font-weight: bold; 
+    font-family: Garamond;
+    margin-bottom: 10px; 
+}
+
+.texto-menor p {
+    font-size: 11px; 
+    font-weight:100;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px; 
+}
+
+.texto-pequeno {
+    font-size: 40px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.texto-pequeno p {
+    font-size: 12px; 
+    width: calc(50% - 5px); 
+}
